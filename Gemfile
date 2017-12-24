@@ -9,7 +9,7 @@ end
 gem 'rails', '~> 5.1.2'
 
 
-ruby '2.3.4'
+ruby '2.4.1'
 
 # #1
 group :production do
