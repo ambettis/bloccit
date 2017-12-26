@@ -17,6 +17,8 @@ posts = Post.all
   )
 end
 
+Post.find_or_create_by(title: "Roll Tide", body: "Clemson is going to beat us.")
+
 puts "Seed finished"
 puts "#{Post.count} posts created"
 puts "#{Comment.count} comments created"
