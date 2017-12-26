@@ -8,7 +8,6 @@ end
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.2'
 
-
 ruby '2.4.1'
 
 # #1
@@ -18,10 +17,13 @@ group :production do
   gem 'rails_12factor'
 end
 
+gem 'pry-rails', :group => :development
+
 # #2
 group :development do
   # Use sqlite3 as the development database for Active Record
   gem 'sqlite3'
+
 end
 
 # Use Puma as the app server
